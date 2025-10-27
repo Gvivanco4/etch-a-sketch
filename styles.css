@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    font-size: 42px;
+    font-weight: 700;
+    flex: 1 0 auto;
+}
+
+#container {
+    display: flex;
+}
+
+.side-bar {
+    background-color: darkgoldenrod;
+    width: 250px;
+    height: 920px;
+    margin: 200px 150px;
+    border-radius: 10px;
+    margin-right: -60px;
+    flex: 1 0 auto;
+}
+
+.canvas {
+    background-color: darkgoldenrod;
+    width: 920px;
+    height: 920px;
+    margin: 200px 150px;
+    border-radius: 10px;
+    flex: 1 0 auto;
+}
+
+.canvas-container {
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    margin: 110px auto;
+}
+
+.square-div {
+    border: 1px solid black;
+}
