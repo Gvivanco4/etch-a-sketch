@@ -9,10 +9,16 @@
 </head>
 <body>
 
-    <div class="title">Etch-a-sketch</div>
+    
 
     <div id="container">
-        <div class="side-bar"></div>
+        <div class="side-bar">
+            <div class="title">Etch-a-sketch</div>
+            <div class="side-title">Select your canva size!</div>
+            <input type="range" min="16" max="100" value="16" class="slider">
+            <div class="slider-settings"></div>
+            <button class="reset-btn">Reset Canvas</button>
+        </div>
         <div class="canvas">
             <div class="canvas-container"></div>
         </div>
