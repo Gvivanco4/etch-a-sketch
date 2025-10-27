@@ -24,18 +24,6 @@ function createCanvaSize (size = DEFAULT_SIZE) {
 
     sliderSettingsText.textContent = `Size is ${value}px x ${value}px`
 
-   
-    
-}
-
-
-//Add event listener for slider
-
-createCanvaSize();
-
-slider.addEventListener("change", () => {
-    let value = slider.value;
-    createCanvaSize(value);
     const squares = document.querySelectorAll(".square-div");
 
 squares.forEach((sqr) => {
@@ -53,6 +41,20 @@ squares.forEach((sqr) => {
     e.stopPropagation();
 })
 })
+
+   
+    
+}
+
+
+//Add event listener for slider
+
+createCanvaSize();
+
+slider.addEventListener("change", () => {
+    let value = slider.value;
+    createCanvaSize(value);
+    
 });
 
 
